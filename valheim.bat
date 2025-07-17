@@ -10,7 +10,7 @@ if errorlevel 1 (
 )
 
 echo Copying world files...
-set "WORLD_NAME=MyWorld"
+set "WORLD_NAME=TheDogHouse"
 copy /Y "%WORLD_NAME%.db" "%USERPROFILE%\AppData\LocalLow\IronGate\Valheim\worlds_local"
 copy /Y "%WORLD_NAME%.fwl" "%USERPROFILE%\AppData\LocalLow\IronGate\Valheim\worlds_local"
 

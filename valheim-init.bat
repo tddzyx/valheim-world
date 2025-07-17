@@ -20,7 +20,7 @@ cd /d "%TARGET_DIR%"
 git clone "%REPO_URL%" .
 
 echo Copying world files...
-set "WORLD_NAME=MyWorld"
+set "WORLD_NAME=TheDogHouse"
 copy /Y "%TARGET_DIR%\%WORLD_NAME%.db" "%USERPROFILE%\AppData\LocalLow\IronGate\Valheim\worlds_local"
 copy /Y "%TARGET_DIR%\%WORLD_NAME%.fwl" "%USERPROFILE%\AppData\LocalLow\IronGate\Valheim\worlds_local"
 
